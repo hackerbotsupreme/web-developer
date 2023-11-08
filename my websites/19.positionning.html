@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1">this is relative 
+        <div id="box2">this is absolute  </div>
+    </div>
+</body>
+</html>
+
+
+
+<!-- css file -->
+
+#box1{
+    position: relative;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+
+
+
+    top: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#box2{
+    position: absolute;
+    /* absolute means the position is relative to its ancesters and if there is no ancesters thenthe position is relative to the viewport  */
+    background-color: rgb(238, 76, 76);
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    
+
+
+    top: 50px;
+    left: 50px;
+}
+
+
+

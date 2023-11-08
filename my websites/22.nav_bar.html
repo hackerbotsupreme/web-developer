@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>NAVIGATION BAR DEMO</h1>
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">DETAILS</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+<!-- css file -->
+
+/* problem i did not understand how the display:block working and what is it doing */
+
+ul{
+    list-style: none ;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #c4a1a1;
+}
+
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width: 60px;
+}
+
+li a:hover{
+    background-color: red;
+
+
+    animation:myGlownAnimation;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes myGlownAnimation{
+    50%{ text-shadow: 0px 0px 10px yellow;}
+}
+
+
+/* problem i did not understand how the display:block working and what is it doing */

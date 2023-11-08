@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">hi</p>
+</body>
+</html>
+
+
+<!-- css file -->
+#p1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px;
+
+
+    animation: myFonts;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes myColouramnimation{
+    /* from{background-color: red;}
+    to{background-color: blue;} */
+
+
+
+    /* 0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+ */
+
+}
+
+@keyframes myRotateanimation{
+    100%{ transform: rotateZ(360deg);
+    /* 100%{ transform: rotateX(360deg);
+    100%{ transform: rotateY(360deg); */
+    
+    }
+}
+
+
+@keyframes myTranslate{
+    50%{ transform: translate(100px,0)}
+}
+
+
+
+@keyframes myScale{
+    /* 50%{transform: scale(3,2)} */
+    50%{transform: scale(0.5,0.5)}
+}
+
+
+
+@keyframes myopacity{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+
+
+@keyframes myFonts{
+    0%{font-size: 85px;}
+    50%{font-size: 400px;}
+    100%{font-size: 85px;}
+}

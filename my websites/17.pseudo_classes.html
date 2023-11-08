@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- pseudo classes  -->
+    <a href="https://www.google.com" target="_blank">www.google.com</a>
+    <br><br>
+    <button type="button">click me:)</button>
+    <br><br>
+    <ul>
+        <li>this is item #1</li>
+        <li>this is item #2</li>
+        <li>this is item #3</li>
+        <li>this is item #4</li>
+        <li>this is item #5</li>
+        <li>this is item #6</li>
+        <li>this is item #7</li>
+        <li>this is item #8</li>
+    </ul>
+</body>
+</html>
+
+
+
+
+<!-- css file -->
+
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color: purple;
+}
+
+/* In CSS code, the colon (:) is used to separate a property from its value within a declaration block.
+
+For example, if you want to set the font-size property of an element to 16 pixels, you would use the following CSS code:
+
+Here, the colon separates the property "font-size" from its value "16px".
+
+It's also worth noting that each property-value pair is typically terminated with a semicolon (;). So, in a full declaration block, */
+
+
+button:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+button:active{
+    background-color: aqua;
+    color: blue;
+}
+
+
+/* li:first-child{
+    background-color: gold;
+    color: rgb(68, 116, 159);
+}
+li:last-child{
+    background-color: rgb(80, 255, 223);
+    color: rgb(11, 20, 117);
+}
+li:nth-child(5){
+    background-color: rgb(80, 255, 223);
+    color: rgb(11, 20, 117);
+} */
+li:nth-child(odd){
+    background-color: gold;
+    color: green;
+}
+li:nth-child(even){
+    background-color: rgb(80, 255, 223);
+    color: rgb(11, 20, 117);
+}
+
+
+/* li:nth-child(3n+0){
+    background-color: rgb(80, 255, 223);
+    color: rgb(11, 20, 117);
+} */
+/* 
+nth-child(an+b)
+a=cycle size
+n=counter (start at 0)
+b=offset value 
+ */
+
+
+li:nth-child(3n+0){
+    background-image: linear-gradient(to right ,rgb(80, 255, 223),rgb(11, 20, 117));
+    border: 3px solid;
+    opacity: 0.5;
+}

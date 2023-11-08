@@ -1,0 +1,66 @@
+two vs code shortcuts --> word wrap mode , screencast mode 
+
+
+prerequisites--> full form  of url , 
+
+doudt --> what should be the extension of the pictures / images ? .jpg / .png / .ifig ?
+
+html -->hyper text markup language 
+href --> hypertext reference 
+
+
+
+use : as is 
+; as line break for css 
+
+
+
+youtube has a free audio library that has a free sound effects . you can download and use it when you need to show an audio on yyour website .
+and if you want thaat the user should not be able to interact with the video cut the the controls attribute from them. 
+
+% -->  adjusts with the viewport --> % applies to the room/space available to the table (adds dynamic/responsiveness to your element )
+px --> refers to the size we have specified  
+when you feel the need to know about any tag just hover over it and go to its "mdn css reference" 
+
+
+1. nbsp-- when you write nbsp between two text in your paragraph it adds spaces in between those two words .like --> 
+<p>
+        Lorem ipsum dolor sit amet &nbsp &nbsp &nbsp consectetur adipisicing elit. Nemo impedit velit architecto assumenda doloribus atque quidem molestiae excepturi eius dolor, sint vitae hic explicabo!
+</p>
+.......something like this . 
+
+dont always go to the file to file file/folder paths you can double click then go to prperties and the path . 
+
+overview i need to remember ---> 
+                                 html
+html tutorial for begginners 
+comments , heading and spacing 
+text formatting --> bold , italic , underline , marked , big ,small , deleted ,inserted ,subscript ,superscript 
+links & images --> <a>, <a href>,download,<img> ,<img src="path">,<img src="" target="blank">, height="10%" width="20%",alt, with % attribute responsiveness of the elements comes by default  .(anchor tag used to act a text as a link  ), <a href> , <a href="mmeme.jpg" download="Itwasemdio">,<img>, <img height="10%" width="20%"> , <img height="200">(in this case the width will adjust accorading to the given height based on the pictures aspect ratio),<img href=image.jpg" height="10%" width="20%" alt="mu me le " >, cursor changes to pointer means the text is a link  
+lists --><ol type="A"/"1">etc..etc, ordered lists(ol>li), unordered lists(ul>li), description list(dl>dt(descripton tables)>dd) , nested list (list inside of another list ul>li>ol>li). 
+tables -->(table>tr>td),align=center,<table border="3px">,<th height='456px' width='234px'>,<tr bgcolor="blue">,< table border="3px" bgcolor="black">
+audio --> audio, audio controls>source src  , loop , autoplay , muted , (compatible formats--.mp3(as it is a audio) , .wav, .ogg) , 
+video --> video, video height width in %, video controls>source src , loop , autoplay , (compatible formats--.mp4(as it is a video) , .wav, .ogg)
+buttons --> button , button name , button type ,id, value  , button autofocus , button onclick="alert('')",a href=google.com>button=google,button style>background-color>color.
+forms --> form , form action , label for>id , input type ,value ,  name & id are same , input placeholder , input type=reset , select id>option value,input type email , date , number min= and max=99,password maxlength=,type range= step=, type=checkbox , type=file accept=".txt".     .
+meta tags -->meta  name= keywords content= , name=desciption content=, name=author content ,name=viewport content="width-device-width,initial-scale=1.0,http-equiv='refersh' content='3'.
+colors --> body style background-color:lightgreen colour=green, color name /hexadecimel value of colour , colornames are very sharp to values are suggested .
+span and div tags --> span, div, span colour= red , div colour=blue 
+                                css(cascading style sheets ) tutorial--> inline , internel(inside head ),external 
+internel(inside head )--> link, rel , stylesheet 
+fonts --> font-family , font-style, sont-weight , font-size , text-decoration ,color 
+border --> border : 1px solid,dotted, dashed ,bordder ,border-style , double, ridge, groove, inset, output , border width: 3px 5px 3px 8px(in clock dorection),border-radius ,border-top-style:dotted , border-bottom-style:dotted .
+background --> background-image:url() , background-color: , liner-gradiant(grey, black ),background-repeat:no-repeat , background-position: center, background-size:cover, background-attachment:fixed . 
+margins -->borders, width,padding, margin, maargin-top:-21px , margin-left : -8px ,#p1, #p2 ,margin: 20% , margin-left;auto , margin-right:auto .
+shadows --> border, width , padding, text-shadow: up right down left , text-shadow : up right down left ,  text-shadow :horizontal vertical blur color(yellow) , box-shadow:up right down left.  
+pseudo classes--> in head link=rel type=css href=style.css, button type=button , a:link, s:vidted,button : hover , button:active , li:first-child,li:last-child , li:nth-child(3/odd/even/an+b){},   
+positioning -->text-align: left , text-align: right , float : left ,position:  absolutw , static, relative ,sticky  
+transformations --> transform:translateX,translatey,translatez,rotateX,rotateY, reotateZ, rotate(), scaleX(), scaleY(), scaleZ(), skewX(),skewY().
+animations -->@keyframes from{backgroun-color:red} to{background-colour:blue }, animation ,animation-duration , animation-iteration-count: , 0%{backgroun-color:red},20%{backgroun-color:red},50%{backgroun-color:red},70%{backgroun-color:red},100%{backgroun-color:red}, @ keyframes 100%{transform: rotateZ(360 deg )}, @ keyframes 50%{transform:translate(100px ,100px)}, @keyframes 50%{transform:scale(2,2)},@keyframes 0%{opacity:0};50%{opacity:1;},100%{opacity:0;}, @keyframes 0%{font-size : 85px},50% {font-ze:400px},100%{font-size:85px }
+
+navigation bars -->ul, li , list-style:none, padding:0px,overfloe:hidden , baackground-color:324232, float:left, display:block, padding, text-align, text-decoratioin , min-width, li:hover
+flexbox --> .container div{color:white height,width, text-align, font-size , margin } , .container {display:flex; flex-wrap:nowrap;background-color:342343}
+icons --> fontawesome.com , i , 
+
+
+
